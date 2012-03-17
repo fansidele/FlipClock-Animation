@@ -28,8 +28,8 @@
 
 -(void)UpdateClock:(NSTimer*)sender
 {   
-    static int i  =0;
-
+    static int i  =95;
+ //   if(i==99) i=0;
     [fliper FlipToNumber:i];
     i++;
 }

@@ -53,9 +53,7 @@
 
 -(int)TensDigitFrom:(int)Number
 {
-    if(Number == 0) return 0;
-    return (int)Number/10;
-    
+    return (int)Number/10;    
 }
 
 -(int)UnitDigitFrom:(int)Number
@@ -65,20 +63,12 @@
 
 -(void)FlipToNumber:(int)Number
 {
-    if(Number>99) return;
-    
-    static int prevUnit;
-  
     int tensDigit = [self TensDigitFrom:Number];
     int unitDigit = [self UnitDigitFrom:Number]; 
-    
-    
+
     [Unit FlipToVal:unitDigit];
     
-    if(prevUnit==9)
     [Tens FlipToVal:tensDigit];
-    
-    prevUnit=unitDigit;
 }
 
 
