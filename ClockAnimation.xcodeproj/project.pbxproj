@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		147C5BB014F5600300291569 /* MyDelegateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 147C5BAF14F5600300291569 /* MyDelegateHelper.m */; };
+		147D77D514F3C8C80048A350 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147D77D414F3C8C80048A350 /* UIKit.framework */; };
+		147D77D714F3C8C80048A350 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147D77D614F3C8C80048A350 /* Foundation.framework */; };
+		147D77D914F3C8C80048A350 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147D77D814F3C8C80048A350 /* CoreGraphics.framework */; };
+		147D77DF14F3C8C80048A350 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 147D77DD14F3C8C80048A350 /* InfoPlist.strings */; };
+		147D77E114F3C8C80048A350 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 147D77E014F3C8C80048A350 /* main.m */; };
+		147D77E514F3C8C80048A350 /* projectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 147D77E414F3C8C80048A350 /* projectAppDelegate.m */; };
+		147D77E814F3C8C80048A350 /* projectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147D77E714F3C8C80048A350 /* projectViewController.m */; };
+		147D77EB14F3C8C80048A350 /* projectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 147D77E914F3C8C80048A350 /* projectViewController.xib */; };
+		147D77F314F3C8C80048A350 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147D77F214F3C8C80048A350 /* SenTestingKit.framework */; };
+		147D77F414F3C8C80048A350 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147D77D414F3C8C80048A350 /* UIKit.framework */; };
+		147D77F514F3C8C80048A350 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147D77D614F3C8C80048A350 /* Foundation.framework */; };
+		147D77FD14F3C8C80048A350 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 147D77FB14F3C8C80048A350 /* InfoPlist.strings */; };
+		147D780014F3C8C80048A350 /* ClockAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 147D77FF14F3C8C80048A350 /* ClockAnimationTests.m */; };
+		147D780A14F3D3E40048A350 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147D780914F3D3E40048A350 /* QuartzCore.framework */; };
+		147D780C14F3D4330048A350 /* C.png in Resources */ = {isa = PBXBuildFile; fileRef = 147D780B14F3D4330048A350 /* C.png */; };
+		147DCFAB14F65CD9004D81FE /* FlipUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 147DCFAA14F65CD9004D81FE /* FlipUnit.m */; };
+		147E9CF614F8D06600B0F80E /* 5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 147E9CEC14F8D06600B0F80E /* 5.jpeg */; };
+		147E9CF714F8D06600B0F80E /* 0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 147E9CED14F8D06600B0F80E /* 0.jpeg */; };
+		147E9CF814F8D06600B0F80E /* 9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 147E9CEE14F8D06600B0F80E /* 9.jpeg */; };
+		147E9CF914F8D06600B0F80E /* 8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 147E9CEF14F8D06600B0F80E /* 8.jpeg */; };
+		147E9CFA14F8D06600B0F80E /* 7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 147E9CF014F8D06600B0F80E /* 7.jpeg */; };
+		147E9CFB14F8D06600B0F80E /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 147E9CF114F8D06600B0F80E /* 6.jpeg */; };
+		147E9CFC14F8D06600B0F80E /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 147E9CF214F8D06600B0F80E /* 4.jpeg */; };
+		147E9CFD14F8D06600B0F80E /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 147E9CF314F8D06600B0F80E /* 3.jpeg */; };
+		147E9CFE14F8D06600B0F80E /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 147E9CF414F8D06600B0F80E /* 2.jpeg */; };
+		147E9CFF14F8D06600B0F80E /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 147E9CF514F8D06600B0F80E /* 1.jpeg */; };
+		147E9E3414F92A8500B0F80E /* FlipTensDigit.m in Sources */ = {isa = PBXBuildFile; fileRef = 147E9E3314F92A8500B0F80E /* FlipTensDigit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		147D77F614F3C8C80048A350 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 147D77C714F3C8C70048A350 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 147D77CF14F3C8C70048A350;
+			remoteInfo = ClockAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		147C5BAE14F5600300291569 /* MyDelegateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDelegateHelper.h; sourceTree = "<group>"; };
+		147C5BAF14F5600300291569 /* MyDelegateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDelegateHelper.m; sourceTree = "<group>"; };
+		147D77D014F3C8C70048A350 /* ClockAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClockAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		147D77D414F3C8C80048A350 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		147D77D614F3C8C80048A350 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		147D77D814F3C8C80048A350 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		147D77DC14F3C8C80048A350 /* ClockAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClockAnimation-Info.plist"; sourceTree = "<group>"; };
+		147D77DE14F3C8C80048A350 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		147D77E014F3C8C80048A350 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		147D77E214F3C8C80048A350 /* ClockAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClockAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		147D77E314F3C8C80048A350 /* projectAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = projectAppDelegate.h; sourceTree = "<group>"; };
+		147D77E414F3C8C80048A350 /* projectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = projectAppDelegate.m; sourceTree = "<group>"; };
+		147D77E614F3C8C80048A350 /* projectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = projectViewController.h; sourceTree = "<group>"; };
+		147D77E714F3C8C80048A350 /* projectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = projectViewController.m; sourceTree = "<group>"; };
+		147D77EA14F3C8C80048A350 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/projectViewController.xib; sourceTree = "<group>"; };
+		147D77F114F3C8C80048A350 /* ClockAnimationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockAnimationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		147D77F214F3C8C80048A350 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		147D77FA14F3C8C80048A350 /* ClockAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClockAnimationTests-Info.plist"; sourceTree = "<group>"; };
+		147D77FC14F3C8C80048A350 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		147D77FE14F3C8C80048A350 /* ClockAnimationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockAnimationTests.h; sourceTree = "<group>"; };
+		147D77FF14F3C8C80048A350 /* ClockAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockAnimationTests.m; sourceTree = "<group>"; };
+		147D780914F3D3E40048A350 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		147D780B14F3D4330048A350 /* C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C.png; sourceTree = "<group>"; };
+		147DCFA914F65CD9004D81FE /* FlipUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipUnit.h; sourceTree = "<group>"; };
+		147DCFAA14F65CD9004D81FE /* FlipUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipUnit.m; sourceTree = "<group>"; };
+		147E9CEC14F8D06600B0F80E /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpeg; path = Numbers/5.jpeg; sourceTree = SOURCE_ROOT; };
+		147E9CED14F8D06600B0F80E /* 0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 0.jpeg; path = Numbers/0.jpeg; sourceTree = SOURCE_ROOT; };
+		147E9CEE14F8D06600B0F80E /* 9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 9.jpeg; path = Numbers/9.jpeg; sourceTree = SOURCE_ROOT; };
+		147E9CEF14F8D06600B0F80E /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 8.jpeg; path = Numbers/8.jpeg; sourceTree = SOURCE_ROOT; };
+		147E9CF014F8D06600B0F80E /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 7.jpeg; path = Numbers/7.jpeg; sourceTree = SOURCE_ROOT; };
+		147E9CF114F8D06600B0F80E /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 6.jpeg; path = Numbers/6.jpeg; sourceTree = SOURCE_ROOT; };
+		147E9CF214F8D06600B0F80E /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpeg; path = Numbers/4.jpeg; sourceTree = SOURCE_ROOT; };
+		147E9CF314F8D06600B0F80E /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpeg; path = Numbers/3.jpeg; sourceTree = SOURCE_ROOT; };
+		147E9CF414F8D06600B0F80E /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpeg; path = Numbers/2.jpeg; sourceTree = SOURCE_ROOT; };
+		147E9CF514F8D06600B0F80E /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpeg; path = Numbers/1.jpeg; sourceTree = SOURCE_ROOT; };
+		147E9E3214F92A8500B0F80E /* FlipTensDigit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipTensDigit.h; sourceTree = "<group>"; };
+		147E9E3314F92A8500B0F80E /* FlipTensDigit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipTensDigit.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		147D77CD14F3C8C70048A350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147D780A14F3D3E40048A350 /* QuartzCore.framework in Frameworks */,
+				147D77D514F3C8C80048A350 /* UIKit.framework in Frameworks */,
+				147D77D714F3C8C80048A350 /* Foundation.framework in Frameworks */,
+				147D77D914F3C8C80048A350 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147D77ED14F3C8C80048A350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147D77F314F3C8C80048A350 /* SenTestingKit.framework in Frameworks */,
+				147D77F414F3C8C80048A350 /* UIKit.framework in Frameworks */,
+				147D77F514F3C8C80048A350 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		147D77C514F3C8C70048A350 = {
+			isa = PBXGroup;
+			children = (
+				147E9E3514F938B500B0F80E /* Flip_Unit */,
+				147E9E3114F92A2200B0F80E /* Flip_Clock */,
+				147D77DA14F3C8C80048A350 /* ClockAnimation */,
+				147D77F814F3C8C80048A350 /* ClockAnimationTests */,
+				147D77D314F3C8C70048A350 /* Frameworks */,
+				147D77D114F3C8C70048A350 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		147D77D114F3C8C70048A350 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				147D77D014F3C8C70048A350 /* ClockAnimation.app */,
+				147D77F114F3C8C80048A350 /* ClockAnimationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		147D77D314F3C8C70048A350 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				147D780914F3D3E40048A350 /* QuartzCore.framework */,
+				147D77D414F3C8C80048A350 /* UIKit.framework */,
+				147D77D614F3C8C80048A350 /* Foundation.framework */,
+				147D77D814F3C8C80048A350 /* CoreGraphics.framework */,
+				147D77F214F3C8C80048A350 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		147D77DA14F3C8C80048A350 /* ClockAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				147D77E314F3C8C80048A350 /* projectAppDelegate.h */,
+				147D77E414F3C8C80048A350 /* projectAppDelegate.m */,
+				147D77E614F3C8C80048A350 /* projectViewController.h */,
+				147D77E714F3C8C80048A350 /* projectViewController.m */,
+				147D77E914F3C8C80048A350 /* projectViewController.xib */,
+				147D77DB14F3C8C80048A350 /* Supporting Files */,
+			);
+			path = ClockAnimation;
+			sourceTree = "<group>";
+		};
+		147D77DB14F3C8C80048A350 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				147E9CEC14F8D06600B0F80E /* 5.jpeg */,
+				147E9CED14F8D06600B0F80E /* 0.jpeg */,
+				147E9CEE14F8D06600B0F80E /* 9.jpeg */,
+				147E9CEF14F8D06600B0F80E /* 8.jpeg */,
+				147E9CF014F8D06600B0F80E /* 7.jpeg */,
+				147E9CF114F8D06600B0F80E /* 6.jpeg */,
+				147E9CF214F8D06600B0F80E /* 4.jpeg */,
+				147E9CF314F8D06600B0F80E /* 3.jpeg */,
+				147E9CF414F8D06600B0F80E /* 2.jpeg */,
+				147E9CF514F8D06600B0F80E /* 1.jpeg */,
+				147D780B14F3D4330048A350 /* C.png */,
+				147D77DC14F3C8C80048A350 /* ClockAnimation-Info.plist */,
+				147D77DD14F3C8C80048A350 /* InfoPlist.strings */,
+				147D77E014F3C8C80048A350 /* main.m */,
+				147D77E214F3C8C80048A350 /* ClockAnimation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		147D77F814F3C8C80048A350 /* ClockAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				147D77FE14F3C8C80048A350 /* ClockAnimationTests.h */,
+				147D77FF14F3C8C80048A350 /* ClockAnimationTests.m */,
+				147D77F914F3C8C80048A350 /* Supporting Files */,
+			);
+			path = ClockAnimationTests;
+			sourceTree = "<group>";
+		};
+		147D77F914F3C8C80048A350 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				147D77FA14F3C8C80048A350 /* ClockAnimationTests-Info.plist */,
+				147D77FB14F3C8C80048A350 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		147E9E3114F92A2200B0F80E /* Flip_Clock */ = {
+			isa = PBXGroup;
+			children = (
+				147E9E3214F92A8500B0F80E /* FlipTensDigit.h */,
+				147E9E3314F92A8500B0F80E /* FlipTensDigit.m */,
+			);
+			name = Flip_Clock;
+			sourceTree = "<group>";
+		};
+		147E9E3514F938B500B0F80E /* Flip_Unit */ = {
+			isa = PBXGroup;
+			children = (
+				147C5BAE14F5600300291569 /* MyDelegateHelper.h */,
+				147C5BAF14F5600300291569 /* MyDelegateHelper.m */,
+				147DCFA914F65CD9004D81FE /* FlipUnit.h */,
+				147DCFAA14F65CD9004D81FE /* FlipUnit.m */,
+			);
+			name = Flip_Unit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		147D77CF14F3C8C70048A350 /* ClockAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147D780314F3C8C80048A350 /* Build configuration list for PBXNativeTarget "ClockAnimation" */;
+			buildPhases = (
+				147D77CC14F3C8C70048A350 /* Sources */,
+				147D77CD14F3C8C70048A350 /* Frameworks */,
+				147D77CE14F3C8C70048A350 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClockAnimation;
+			productName = ClockAnimation;
+			productReference = 147D77D014F3C8C70048A350 /* ClockAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		147D77F014F3C8C80048A350 /* ClockAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147D780614F3C8C80048A350 /* Build configuration list for PBXNativeTarget "ClockAnimationTests" */;
+			buildPhases = (
+				147D77EC14F3C8C80048A350 /* Sources */,
+				147D77ED14F3C8C80048A350 /* Frameworks */,
+				147D77EE14F3C8C80048A350 /* Resources */,
+				147D77EF14F3C8C80048A350 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				147D77F714F3C8C80048A350 /* PBXTargetDependency */,
+			);
+			name = ClockAnimationTests;
+			productName = ClockAnimationTests;
+			productReference = 147D77F114F3C8C80048A350 /* ClockAnimationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		147D77C714F3C8C70048A350 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 147D77CA14F3C8C70048A350 /* Build configuration list for PBXProject "ClockAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 147D77C514F3C8C70048A350;
+			productRefGroup = 147D77D114F3C8C70048A350 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				147D77CF14F3C8C70048A350 /* ClockAnimation */,
+				147D77F014F3C8C80048A350 /* ClockAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		147D77CE14F3C8C70048A350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147D77DF14F3C8C80048A350 /* InfoPlist.strings in Resources */,
+				147D77EB14F3C8C80048A350 /* projectViewController.xib in Resources */,
+				147D780C14F3D4330048A350 /* C.png in Resources */,
+				147E9CF614F8D06600B0F80E /* 5.jpeg in Resources */,
+				147E9CF714F8D06600B0F80E /* 0.jpeg in Resources */,
+				147E9CF814F8D06600B0F80E /* 9.jpeg in Resources */,
+				147E9CF914F8D06600B0F80E /* 8.jpeg in Resources */,
+				147E9CFA14F8D06600B0F80E /* 7.jpeg in Resources */,
+				147E9CFB14F8D06600B0F80E /* 6.jpeg in Resources */,
+				147E9CFC14F8D06600B0F80E /* 4.jpeg in Resources */,
+				147E9CFD14F8D06600B0F80E /* 3.jpeg in Resources */,
+				147E9CFE14F8D06600B0F80E /* 2.jpeg in Resources */,
+				147E9CFF14F8D06600B0F80E /* 1.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147D77EE14F3C8C80048A350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147D77FD14F3C8C80048A350 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		147D77EF14F3C8C80048A350 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		147D77CC14F3C8C70048A350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147D77E114F3C8C80048A350 /* main.m in Sources */,
+				147D77E514F3C8C80048A350 /* projectAppDelegate.m in Sources */,
+				147D77E814F3C8C80048A350 /* projectViewController.m in Sources */,
+				147C5BB014F5600300291569 /* MyDelegateHelper.m in Sources */,
+				147DCFAB14F65CD9004D81FE /* FlipUnit.m in Sources */,
+				147E9E3414F92A8500B0F80E /* FlipTensDigit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147D77EC14F3C8C80048A350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147D780014F3C8C80048A350 /* ClockAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		147D77F714F3C8C80048A350 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 147D77CF14F3C8C70048A350 /* ClockAnimation */;
+			targetProxy = 147D77F614F3C8C80048A350 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		147D77DD14F3C8C80048A350 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147D77DE14F3C8C80048A350 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		147D77E914F3C8C80048A350 /* projectViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147D77EA14F3C8C80048A350 /* en */,
+			);
+			name = projectViewController.xib;
+			sourceTree = "<group>";
+		};
+		147D77FB14F3C8C80048A350 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147D77FC14F3C8C80048A350 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		147D780114F3C8C80048A350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		147D780214F3C8C80048A350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		147D780414F3C8C80048A350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClockAnimation/ClockAnimation-Prefix.pch";
+				INFOPLIST_FILE = "ClockAnimation/ClockAnimation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		147D780514F3C8C80048A350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClockAnimation/ClockAnimation-Prefix.pch";
+				INFOPLIST_FILE = "ClockAnimation/ClockAnimation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		147D780714F3C8C80048A350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClockAnimation.app/ClockAnimation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClockAnimation/ClockAnimation-Prefix.pch";
+				INFOPLIST_FILE = "ClockAnimationTests/ClockAnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		147D780814F3C8C80048A350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClockAnimation.app/ClockAnimation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClockAnimation/ClockAnimation-Prefix.pch";
+				INFOPLIST_FILE = "ClockAnimationTests/ClockAnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		147D77CA14F3C8C70048A350 /* Build configuration list for PBXProject "ClockAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147D780114F3C8C80048A350 /* Debug */,
+				147D780214F3C8C80048A350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147D780314F3C8C80048A350 /* Build configuration list for PBXNativeTarget "ClockAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147D780414F3C8C80048A350 /* Debug */,
+				147D780514F3C8C80048A350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147D780614F3C8C80048A350 /* Build configuration list for PBXNativeTarget "ClockAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147D780714F3C8C80048A350 /* Debug */,
+				147D780814F3C8C80048A350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 147D77C714F3C8C70048A350 /* Project object */;
+}
