@@ -63,6 +63,7 @@
         [self layer].sublayerTransform = aTransform;
   
     }
+    NSLog(@"aici am facut o mare schimbare ");
     return self;
 }
 
