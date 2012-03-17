@@ -44,7 +44,7 @@
     if (self) {
         
         
-        Images = [[NSArray alloc]initWithArray:img];
+        Images = [img retain];
         [self SplitImagesAndStoreInArray];
         
         helper = [[MyDelegateHelper alloc]initWithImages:BottomImages frame:CGRectMake(0, 0, self.frame.size.width, frame.size.height/2)];
@@ -63,7 +63,6 @@
         [self layer].sublayerTransform = aTransform;
   
     }
-    NSLog(@"aici am facut o mare schimbare ");
     return self;
 }
 

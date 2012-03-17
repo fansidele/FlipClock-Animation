@@ -12,13 +12,6 @@
 @class FlipTensDigit;
 @interface projectViewController : UIViewController
 {
-
-    
-    
-    NSMutableArray * imagesTop;
-    NSMutableArray * imagesBottom;
-    
-
     FlipTensDigit * fliper ;
 }
 

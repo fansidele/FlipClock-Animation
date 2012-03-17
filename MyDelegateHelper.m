@@ -8,7 +8,6 @@
 
 #import "MyDelegateHelper.h"
 #import "QuartzCore/QuartzCore.h"
-//#import "CoreImage/CoreImage.h"
 
 @implementation MyDelegateHelper
 @synthesize FlipNr;
@@ -21,15 +20,6 @@
     }
     return self;
 }
-
-//- (void)displayLayer:(CALayer *)theLayer
-//{
-// 
-//
-//    theLayer.contents = (id)[[images objectAtIndex:1]CGImage];
-//   
-//    
-//}
 
 
 -(void)drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx

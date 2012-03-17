@@ -37,6 +37,24 @@
     return self;
 }
 
+-(void)FlipToNumber:(int)Number
+{
+    if(Number>99)
+        Number=Number%100;
+    
+    int tensDigit = [self TensDigitFrom:Number];
+    int unitDigit = [self UnitDigitFrom:Number]; 
+    
+    [Unit FlipToVal:unitDigit];
+    
+    if(Number>9 && unitDigit==0)
+        [Tens FlipToVal:tensDigit];
+}
+
+
+// Private methods
+//----------------------------------------------------------------------
+
 -(NSArray*)Images
 {
     
@@ -50,7 +68,6 @@
     return (NSArray*)array;
 }
 
-
 -(int)TensDigitFrom:(int)Number
 {
     if(Number == 0) return 0;
@@ -62,24 +79,5 @@
 {
     return Number%10;
 }
-
--(void)FlipToNumber:(int)Number
-{
-    if(Number>99) return;
-    
-    static int prevUnit;
-  
-    int tensDigit = [self TensDigitFrom:Number];
-    int unitDigit = [self UnitDigitFrom:Number]; 
-    
-    
-    [Unit FlipToVal:unitDigit];
-    
-    if(prevUnit==9)
-    [Tens FlipToVal:tensDigit];
-    
-    prevUnit=unitDigit;
-}
-
 
 @end
